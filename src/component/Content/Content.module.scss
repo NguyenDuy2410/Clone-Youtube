@@ -1,0 +1,12 @@
+.Content {
+    flex: 0.8;
+    position: relative;
+    display: flex;
+    padding-left: 450px;
+    margin-top: 80px;
+    cursor: pointer;
+    z-index: 0;
+    .content_items {
+        margin-top: 60px;
+    }
+}

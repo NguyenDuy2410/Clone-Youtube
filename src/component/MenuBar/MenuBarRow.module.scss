@@ -1,0 +1,12 @@
+.MenuBarRow {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    svg {
+        font-size: 30px;
+        padding-right: 10px;
+    }
+    &:hover {
+        background-color: #ccc;
+    }
+}

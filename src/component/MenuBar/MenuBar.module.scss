@@ -1,0 +1,16 @@
+.MenuBar {
+    width: 20%;
+    overflow-y: scroll;
+    flex: 0.2;
+    top: 60px;
+    position: fixed;
+    height: 700px;
+    z-index: 1;
+    cursor: pointer;
+    .MenuBarRow_Left {
+        border-top: 1px solid #ccc;
+    }
+    .MenuBarRow_Setting {
+        border-top: 1px solid #ccc;
+    }
+}

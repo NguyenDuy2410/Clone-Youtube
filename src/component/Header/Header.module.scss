@@ -1,0 +1,87 @@
+.Header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    .header_left {
+        height: 100%;
+        // width: 25%;
+        display: flex;
+        align-items: center;
+        flex: 0.2;
+        svg {
+            font-size: 30px;
+        }
+        .youtube {
+            margin: 0px 20px;
+        }
+        .youtubes {
+            align-items: center;
+            .youtube1 {
+                font-size: 35px;
+                color: red;
+            }
+            .youtube2 {
+                font-size: 45px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .header_center {
+        flex: 0.6;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+            font-size: 20px;
+        }
+        .header_search {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            height: 70%;
+            border: 1px solid #ccc;
+            align-items: center;
+            margin-right: 20px;
+            input {
+                width: 400px;
+                border: none;
+                &:focus {
+                    outline: none;
+                }
+            }
+            button {
+                border: none;
+                height: 100%;
+                width: 70px;
+                border-left: 1px solid #ccc;
+                margin-left: 20px;
+            }
+        }
+    }
+    .header_right {
+        flex: 0.2;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        svg {
+            font-size: 25px;
+        }
+        .avatar {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+}

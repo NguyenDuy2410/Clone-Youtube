@@ -1,0 +1,75 @@
+.ContentRow {
+    margin-bottom: 40px;
+    width: 270px;
+    margin-left: 15px;
+    float: left;
+
+    .video {
+        position: relative;
+        .ContentTime {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            margin: 0;
+            font-size: 11px;
+            border-radius: 3px;
+            background-color: rgba($color: #000000, $alpha: 0.9);
+            color: #fff;
+            padding: 3px;
+            font-weight: 600;
+        }
+    }
+
+    .content {
+        display: flex;
+        padding: 10px;
+
+        .ContentAvatar {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .Video_text {
+            margin-left: 10px;
+            h4 {
+                margin: 0 0 5px 0;
+            }
+            .ContentUsename {
+                font-size: 11px;
+                color: gray;
+                font-weight: 600;
+                align-items: center;
+                display: flex;
+
+                svg {
+                    font-size: 10px;
+                    margin-left: 5px;
+                    margin-bottom: -3px;
+                }
+            }
+            div:last-child {
+                display: flex;
+                div {
+                    font-size: 11px;
+                    font-weight: 500;
+                    color: gray;
+                }
+                .ContentDay {
+                    margin-left: 10px;
+                    &::before {
+                        content: "•";
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .ContentImage {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+    }
+}
